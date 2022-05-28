@@ -1,0 +1,52 @@
+.steper{
+    border: 30px;
+    background-color: #ff9933;
+    margin-bottom: 2rem;
+}
+.boton__next{
+    outline: none;
+    border: none;
+    background-color: #ff9933;
+    padding: .6rem 2rem;
+    text-align: center;
+    color: #fff;
+    font-weight: bold;
+    border: 10px;
+}
+.boton__next:hover{
+    background-color: #ff9933;
+    cursor: pointer;
+}
+
+
+.colas__grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2rem;
+}
+.colas__widget{
+    background-color: #1112;
+    padding: 2rem 3rem;
+    color: #fff;
+    border: 2rem;
+    margin-bottom: 2rem;
+    text-align: center;
+}
+.colas__titulo{
+    font-size: 18px;
+    font-weight: bold;
+}
+.colas__boton{
+    outline: none;
+    border: none;
+    background-color: #ff9933;
+    padding: 1rem;
+    text-align: center;
+    color: #000;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.colas__boton:hover{
+    cursor: pointer;
+    background-color: #ff9933;
+}

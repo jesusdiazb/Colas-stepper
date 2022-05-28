@@ -1,0 +1,43 @@
+.tarjeta_contenedor{
+    display: flex;
+}
+.tarjeta{
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 1rem .8rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.tarjeta__valor,
+.tarjeta__valor1{
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    margin-bottom: .4rem;
+}
+.tarjeta__valor1{
+    color: #1f1f9e;
+}
+.tarjeta__titulo{
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000;
+}
+.tarjeta__descripcion span{
+    font-weight: bold;
+    color: #000000;
+    font-size: 17px;
+}
+.tarjeta__descripcion p{
+    color: #ccc;
+    font-weight: bold;
+}
+.tarjeta__footer,
+.tarjeta__footer1{
+    color: red;
+    font-size: 11px;
+}
+
+.tarjeta__footer1{
+    color: #000000;
+}

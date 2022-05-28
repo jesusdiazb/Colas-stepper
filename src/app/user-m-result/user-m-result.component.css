@@ -1,0 +1,43 @@
+.card-container{
+    display: flex;
+}
+.card{
+    max-width: 250px;
+    margin: 0 auto;
+    padding: 1rem .8rem;
+    background-color: #fff;
+    border-radius: 1rem;
+}
+.card-valor,
+.card-valor1{
+    font-weight: bold;
+    font-size: 18px;
+    color: red;
+    margin-bottom: .4rem;
+}
+.card-valor1{
+    color: #1f1f9e;
+}
+.card-title{
+    font-weight: bold;
+    font-size: 17px;
+    color: #000000;
+}
+.card-descripcion span{
+    font-weight: bold;
+    color: #000000;
+    font-size: 17px;
+}
+.card-descripcion p{
+    color: #ccc;
+    font-weight: bold;
+}
+.card-footer,
+.card-footer1{
+    color: red;
+    font-size: 11px;
+}
+
+.card-footer1{
+    color: #000000;
+}

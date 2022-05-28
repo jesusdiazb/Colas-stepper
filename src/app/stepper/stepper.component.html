@@ -1,0 +1,40 @@
+<mat-stepper orientation="vertical" class="steper">
+    <mat-step>
+        <ng-template class="template__titulo" matStepLabel="Elige el tipo de calculo" >Elige el tipo de calculo</ng-template>
+
+        <div class="colas__grid">
+            <div class="colas__widget">
+                <h4 class="colas__titulo">M/M/C</h4>
+                <p class="colas__descripcion">Unifila, C Servidores</p>
+                <button mat-button matStepperNext class="colas__boton" (click)="assignComponent('uni')">Seleccionar Modelo</button>
+            </div>
+            <div class="colas__widget">
+                <h4 class="colas__titulo">M/M/Inf</h4>
+                <p class="colas__descripcion">Hay más servidores <br> que clientes</p>
+                <button mat-button matStepperNext class="colas__boton" (click)="assignComponent('msercli')">Seleccionar Modelo</button>
+            </div>
+            <div class="colas__widget">
+                <h4 class="colas__titulo">M/M/C/K</h4>
+                <p class="colas__descripcion">El sistema solo puede <br> arrojar K clientes</p>
+                <button mat-button matStepperNext class="colas__boton" (click)="assignComponent('kcli')" >Seleccionar Modelo</button>
+            </div>
+            <div class="colas__widget">
+                <h4 class="colas__titulo">M/M/C/*/M</h4>
+                <p class="colas__descripcion">Solo M clientes <br> pueden utilizar el servicio</p>
+                <button mat-button matStepperNext class="colas__boton" (click)="assignComponent('mcli')" >Seleccionar Modelo</button>
+            </div>
+        </div><!--grid  -->
+    </mat-step>
+    <mat-step>
+        <ng-template class="template__titulo" matStepLabel="Ingresa los valores">Ingresa los valores</ng-template>
+        <!--colas-->
+        <ng-container *ngComponentOutlet="dummyComponent"></ng-container>
+
+        <button mat-button matStepperPrevious>Volver</button>
+    </mat-step>
+    <mat-step>
+        <ng-template class="template__titulo" matStepLabel="Resultado">Resultado</ng-template>
+        <ng-container *ngComponentOutlet="dummyComponent2"></ng-container>
+        <button mat-button matStepperPrevious>Volver</button>
+    </mat-step>
+</mat-stepper>

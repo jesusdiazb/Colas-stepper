@@ -1,0 +1,54 @@
+
+.text-center{
+    text-align: center;
+    margin-bottom: 1rem;
+    color: #fff;
+    font-weight: bold;
+}
+.arrival{
+    max-width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    gap: .8rem;
+}
+.div-boton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1rem;
+}
+.arrival-titulo{
+    font-weight: bold;
+    margin-bottom: 0;
+    color: #fff;
+}
+input[type="text"]{
+    padding: .6rem .5rem;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0px 10px 40px rgba(30, 49, 23, 5);
+}
+.arrival-label{
+    color: #fff;
+}
+.arrival-campo{
+    display: flex;
+    flex-direction: column;
+}
+.unifila-boton{
+    outline: none;
+    border: none;
+    background-color: #FFCD38;
+    padding: 1rem;
+    text-align: center;
+    color: #1f1f9e;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 10px;
+}
+.unifila-boton:hover{
+    cursor: pointer;
+    background-color: #d8ad2b;
+}
